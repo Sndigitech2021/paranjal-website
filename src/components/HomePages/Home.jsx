@@ -60,12 +60,23 @@ function Home(){
 
     return(
         <div>
-            <div className="top">
-                <img className="w-full h-1/2  object-contain" style={{marginBottom:"40px"}} src="/images/hhh.png" />
+            <div className="relative">
+            <img
+                src="/images/logo.PNG"
+                alt="logo"
+                className="absolute top-4 left-16 h-[80px] rounded-full object-cover w-[80px] z-10"
+            />
+
+            <img
+                src="/images/hhh.png"
+                alt="homepage image"
+                className="w-full h-[60vh] object-cover"
+                style={{ marginBottom: "40px" }}
+            />
             </div>
 
             {/* mid part */}
-            <h1 className="text-5xl font-bold text-center text-blue-500">
+            <h1 className="text-5xl font-bold text-center text-blue-400">
                 WELCOME
             </h1>
 
@@ -90,13 +101,13 @@ function Home(){
 
 
             {/* bottom part of home page */}
-            <div className="bg-blue-500 mb-6">
-                <h1 className="text-5xl pt-12 font-bold text-center text-black">
+            <div className="bg-blue-400 mb-6">
+                <h1 className="text-5xl pt-12 font-bold text-center text-white">
                     WHY US
                 </h1>
 
                 <div className="flex flex-col md:flex-row justify-center px-4 md:px-20 py-10 gap-10">
-                <div className="md:w-3/4 w-full text-lg text-black font-normal">
+                <div className="md:w-3/4 w-full text-lg text-white font-normal">
                     <p className="pt-2 mt-6">
                         Choosing a company that offers a comprehensive range of services in computing, network solutions, and technology infrastructure is a decision that significantly impacts the efficiency, security, and success of your business. Here's why opting for such a company is a strategic choice:
                     </p>
@@ -119,7 +130,7 @@ function Home(){
                     key={index}
                     className="bg-white p-4 rounded-lg flex flex-col justify-start h-full min-h-[480px]"
                     >
-                    <h3 className="text-4xl h-[80px] font-semibold text-blue-500 mb-4 text-left">
+                    <h3 className="text-4xl h-[80px] font-semibold text-blue-400 mb-4 text-left">
                         {card.title}
                     </h3>
 
@@ -137,8 +148,8 @@ function Home(){
                 </div>
             </div>  
 
-            <div className="overflow-hidden whitespace-nowrap border-b-2 border-orange-600 bg-gray-100" style={{borderColor:"#4DA8DA"}}>
-            <div className="animate-marquee pt-6 h-[100px] inline-block text-blue-500 font-semibold text-3xl px-4">
+            <div className="overflow-hidden whitespace-nowrap border-b-2 border-blue-400 bg-gray-100" style={{borderColor:"#4DA8DA"}}>
+            <div className="animate-marquee pt-6 h-[100px] inline-block text-blue-400 font-semibold text-3xl px-4">
                 <span className="mx-6">LinkedIn</span>
                 <span className="mx-6">YouTube</span>
                 <span className="mx-6">Facebook</span>

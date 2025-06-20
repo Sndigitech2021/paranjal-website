@@ -7,7 +7,7 @@ function About(){
             </div>
 
             <div className="bg-gray-100 py-10 px-4 md:px-[180px]">
-                <h1 className="text-5xl font-bold text-center text-blue-500 mb-10">ABOUT US</h1>
+                <h1 className="text-5xl font-bold text-center text-blue-400 mb-10">ABOUT US</h1>
 
                 <p className="text-lg mb-6">Welcome to PROSWL Technology Private Limited, where technology meets innovation to empower your business. With an unwavering commitment to delivering cutting-edge solutions, we are your trusted partner for all your computing, networking, and technology needs.</p>
 
@@ -38,12 +38,12 @@ function About(){
 
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 px-4 py-10 py-10 px-4 md:mx-28">
                 <div className="bg-white p-4 rounded-lg flex flex-col justify-start h-full min-h-[480px]">
-                    <h1 className="text-4xl h-[50px] font-semibold text-blue-500 mb-4 text-left">Our Mission</h1>
+                    <h1 className="text-4xl h-[50px] font-semibold text-blue-400 mb-4 text-left">Our Mission</h1>
                     <img src="/images/mission.jpg" className="w-full object-cover mb-4" />
                     <p className="text-lg mb-6 text-gray-700">At PROSWL Technology Private Limited, our mission is to empower businesses with comprehensive IT solutions that safeguard your digital assets and physical environments. We are dedicated to being a trusted partner in the interconnected landscape, delivering innovative technologies and expertise that ensure uninterrupted operations, protection against cyber threats, and optimised network performance. Through our relentless pursuit of excellence, we aim to fortify our clients' security posture and contribute to a safer, more connected world.</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg flex flex-col justify-start h-full min-h-[480px]">
-                    <h1 className="text-4xl h-[50px] font-semibold text-blue-500 mb-4 text-left">Our Vission</h1>
+                    <h1 className="text-4xl h-[50px] font-semibold text-blue-400 mb-4 text-left">Our Vission</h1>
                     <img src="/images/vision.jpg" className="w-full object-cover mb-4" />
                     <p className="text-lg mb-6 text-gray-700">Our vision is to be a trailblazing force in the realm of system integration, recognised globally for our unwavering commitment to securing digital ecosystems and physical spaces. We envision a future where businesses seamlessly navigate the challenges of the digital age, leveraging cutting-edge IT solutions. By fostering innovation, collaboration, and adaptability, we aspire to set new industry standards and empower organizations to thrive in a rapidly evolving technological landscape.</p>
                 </div>

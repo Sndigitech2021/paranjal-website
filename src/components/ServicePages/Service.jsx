@@ -52,12 +52,12 @@ function Service(){
     ];
     return(
         <div>
-            <h1 className="text-4xl font-bold mt-10 text-center text-blue-500">
+            <h1 className="text-4xl font-bold mt-10 text-center text-blue-400">
                 NETWORKING SOLUTION
             </h1>
             <div className="mt-10 mb-2">
                 <img
-                className="mx-auto  max-w-full h-[60vh] object-contain"
+                className="mx-auto max-w-full h-[60vh] object-contain"
                 src="/images/networking.PNG"
                 alt="about us image"
                 />
@@ -75,7 +75,7 @@ function Service(){
             </div>   
 
             <div className="bg-gray-200 mb-6 md:px-20 px-[20px]">
-                <h1 className="text-5xl text-blue-500 pt-12 font-bold text-center">
+                <h1 className="text-5xl text-blue-400 pt-12 font-bold text-center">
                     HOW WE WORK
                 </h1>
 
@@ -97,7 +97,7 @@ function Service(){
                 </div>
             </div>
 
-            <h1 className="text-4xl font-bold mt-10 text-center text-blue-500">
+            <h1 className="text-4xl font-bold mt-10 text-center text-blue-400">
                TYPES OF NETWORK
             </h1>
             <div className="mt-10 md:mx-[300px] mb-20 mx-20 text-gray-700">
