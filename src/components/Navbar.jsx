@@ -12,14 +12,14 @@ const Navbar = () => {
     <nav className="bg-white shadow-md sticky top-0 z-50 border-b-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-[100px] items-center">
-          <Link to="/" className="text-2xl font-bold text-orange-600">Logo</Link>
+          <Link to="/" className="text-2xl font-bold text-blue-500">Logo</Link>
 
           <div className="hidden md:flex items-center space-x-10 text-lg font-semibold uppercase">
             <NavLink
             to="/"
             className={({ isActive }) =>
-              `px-3 py-1 hover:text-orange-500 transition-colors duration-200 ${
-                isActive ? "border-b-1 border-orange-500 text-orange-500" : ""
+              `px-3 py-1 hover:text-blue-500 transition-colors duration-200 ${
+                isActive ? "border-b-1 border-blue-500 text-blue-500" : ""
               }`
             }
           >
@@ -29,8 +29,8 @@ const Navbar = () => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              `px-3 py-1 hover:text-orange-500 transition-colors duration-200 ${
-                isActive ? "border-b-1 border-orange-500 text-orange-500" : ""
+              `px-3 py-1 hover:text-blue-500 transition-colors duration-200 ${
+                isActive ? "border-b-1 border-blue-500 text-blue-500" : ""
               }`
             }
           >
@@ -38,9 +38,9 @@ const Navbar = () => {
           </NavLink>
 
             <div className="relative group">
-              <button onClick={() => setIsServicesOpen((prev) => !prev)} className="flex items-center text-lg uppercase gap-1 group-hover:text-orange-500 focus:outline-none hover:text-orange-500">
+              <button onClick={() => setIsServicesOpen((prev) => !prev)} className="flex items-center text-lg uppercase gap-1 group-hover:text-blue-500 focus:outline-none hover:text-blue-500">
                 Services
-                <span className="text-lg hover:text-orange-500">▾</span>
+                <span className="text-lg hover:text-blue-500">▾</span>
               </button>
               {isServicesOpen && (
               <div className="absolute group-hover:block bg-white shadow-md mt-1 rounded max-h-[250px] overflow-y-auto z-10 w-[200px] text-sm capitalize">
@@ -61,8 +61,8 @@ const Navbar = () => {
               <NavLink
             to="/contact"
             className={({ isActive }) =>
-              `px-3 py-1 hover:text-orange-500 transition-colors duration-200 ${
-                isActive ? "border-b-1 border-orange-500 text-orange-500" : ""
+              `px-3 py-1 hover:text-blue-500 transition-colors duration-200 ${
+                isActive ? "border-b-1 border-blue-500 text-blue-500" : ""
               }`
             }
           >
@@ -84,11 +84,11 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white shadow-md">
           <div className="flex flex-col space-y-2 p-4 text-sm font-semibold uppercase">
-            <Link to="/" className="text-orange-500">Home</Link>
-            <Link to="/about">About Us</Link>
+            <Link to="/" className="text-blue-500">Home</Link>
+            <Link to="/about" className="text-blue-500">About Us</Link>
 
             <div className="group">
-              <button onClick={() => setIsServicesOpen((prev) => !prev)} className="flex items-center  text-sm uppercase gap-1 group-hover:text-orange-500">
+              <button onClick={() => setIsServicesOpen((prev) => !prev)} className="flex items-center text-blue-500 text-sm uppercase gap-1 group-hover:text-blue-500">
                 Services
                 <span>▾</span>
               </button>
@@ -108,7 +108,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/contact"  className="text-blue-500">Contact Us</Link>
           </div>
         </div>
       )}

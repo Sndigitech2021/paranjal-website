@@ -4,7 +4,7 @@ function Home(){
     const cardData = [
     {
         title: "Expertise Across the Spectrum",
-        image: "/images/temp.jpg",
+        image: "/images/card1.jpg",
         description:
         "By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     },
@@ -16,43 +16,43 @@ function Home(){
     },
     {
         title: "Tailored Solutions",
-        image: "/images/temp.jpg",
+        image: "/images/card31.PNG",
         description:
         "We deliver custom solutions aligned to your goals, ensuring investment in the right technology.By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     },
     {
-        title: "Reliable Connectivity",
-        image: "/images/temp.jpg",
+        title: "Reduced Complexity",
+        image: "/images/card2.PNG",
         description:
         "By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     },
     {
-        title: "Smart Surveillance",
-        image: "/images/temp.jpg",
+        title: "Enhanced Security",
+        image: "/images/card5.PNG",
         description:
         "By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     },
     {
-        title: "Technical Support",
-        image: "/images/temp.jpg",
+        title: "Robust Networking",
+        image: "/images/card4.PNG",
         description:
         "By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     },
     {
-        title: "Server Room Setup",
-        image: "/images/temp.jpg",
+        title: "Efficient Communication",
+        image: "/images/card7.PNG",
         description:
         "By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     },
     {
-        title: "Cloud Solutions",
-        image: "/images/welcome.PNG",
+        title: "Centralised Support",
+        image: "/images/card8.PNG",
         description:
         "By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     },
     {
-        title: "Cybersecurity",
-        image: "/images/welcome.PNG",
+        title: "Cost-Efficiency",
+        image: "/images/card9.PNG",
         description:
         "Protect your digital assets with advanced cybersecurity services and monitoring.By selecting a company that offers a diverse portfolio of services, you gain access to a team of experts who possess specialized knowledge in various domains. This means you don't have to engage multiple vendors for different needs, ensuring seamless integration and smoother operations."
     }
@@ -61,18 +61,18 @@ function Home(){
     return(
         <div>
             <div className="top">
-                <img style={{marginBottom:"40px"}} src="/images/herosection.PNG" />
+                <img className="w-full h-1/2  object-contain" style={{marginBottom:"40px"}} src="/images/hhh.png" />
             </div>
 
             {/* mid part */}
-            <h1 className="text-5xl font-bold text-center text-[#ff7311]">
+            <h1 className="text-5xl font-bold text-center text-blue-500">
                 WELCOME
             </h1>
 
             <div className="flex flex-col md:flex-row items-center md:items-center justify-center px-4 md:px-20 py-10 gap-10">
             
             <div className="md:w-1/3 w-full flex justify-center">
-                <img src="/images/welcome.PNG" alt="Welcome" className="w-[90%] max-w-md md:max-w-full" />
+                <img src="/images/welcomep.jpg" alt="Welcome" className="w-[90%] max-w-md md:max-w-full mb-6" />
             </div>
 
             <div className="md:w-3/4 w-full text-lg text-gray-600">
@@ -90,20 +90,20 @@ function Home(){
 
 
             {/* bottom part of home page */}
-            <div className="bg-[#ff7311] mb-6">
+            <div className="bg-blue-500 mb-6">
                 <h1 className="text-5xl pt-12 font-bold text-center text-black">
                     WHY US
                 </h1>
 
                 <div className="flex flex-col md:flex-row justify-center px-4 md:px-20 py-10 gap-10">
                 <div className="md:w-3/4 w-full text-lg text-black font-normal">
-                    <p className="pt-2">
+                    <p className="pt-2 mt-6">
                         Choosing a company that offers a comprehensive range of services in computing, network solutions, and technology infrastructure is a decision that significantly impacts the efficiency, security, and success of your business. Here's why opting for such a company is a strategic choice:
                     </p>
                 </div>
 
                 <div className="md:w-1/3 w-full flex justify-center">
-                    <img src="/images/why-us.PNG" alt="Welcome" className="w-[90%] max-w-md md:max-w-full" />
+                    <img src="/images/why-q.jpg" alt="Welcome" className="w-[90%] max-w-md md:max-w-full mb-6" />
                 </div>
 
                 </div>
@@ -119,7 +119,7 @@ function Home(){
                     key={index}
                     className="bg-white p-4 rounded-lg flex flex-col justify-start h-full min-h-[480px]"
                     >
-                    <h3 className="text-4xl h-[80px] font-semibold text-[#ff7311] mb-4 text-left">
+                    <h3 className="text-4xl h-[80px] font-semibold text-blue-500 mb-4 text-left">
                         {card.title}
                     </h3>
 
@@ -137,8 +137,8 @@ function Home(){
                 </div>
             </div>  
 
-            <div className="overflow-hidden whitespace-nowrap border-b-2 border-orange-600 bg-gray-100">
-            <div className="animate-marquee pt-6 h-[100px] inline-block text-[#ff7311] font-semibold text-3xl px-4">
+            <div className="overflow-hidden whitespace-nowrap border-b-2 border-orange-600 bg-gray-100" style={{borderColor:"#4DA8DA"}}>
+            <div className="animate-marquee pt-6 h-[100px] inline-block text-blue-500 font-semibold text-3xl px-4">
                 <span className="mx-6">LinkedIn</span>
                 <span className="mx-6">YouTube</span>
                 <span className="mx-6">Facebook</span>

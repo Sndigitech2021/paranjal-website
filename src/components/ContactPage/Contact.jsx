@@ -21,7 +21,7 @@ function Contact(){
         <div className="flex flex-wrap">
       
         <div className="w-full md:w-1/3 mb-6 md:mx-28 mx-4 mt-10 order-2 md:order-1">
-            <h2 className="text-3xl font-bold text-[#ff7311] mb-4">CONTACT US</h2>
+            <h2 className="text-3xl font-bold text-blue-500 mb-4">CONTACT US</h2>
             <p className="text-gray-700 mb-4 mt-10">
             Tell us a little about your requirements and we will get back to you with some ideas as soon as possible.
             </p>
@@ -31,11 +31,11 @@ function Contact(){
             <p className="text-gray-700 mb-4 mt-6">Proswl Technology Private Limited, Delhi - Jaipur Expressway, Udyog Vihar, Sector 18, Gurugram, Haryana, India</p>
 
             <p><span className="text-gray-700 text-lg mb-4 mt-10">Email:</span>
-                <span className="text-lg text-[#ff7311] mb-4 ml-2">xyz@gmail.com</span>
+                <span className="text-lg text-blue-500 mb-4 ml-2">xyz@gmail.com</span>
             </p>
 
             <p className="mb-4 mt-6"><span className="text-gray-700 text-lg mb-4 mt-10">Phone:</span>
-                <span className="text-lg text-[#ff7311] mb-4 ml-2">0124-427-1015</span>
+                <span className="text-lg text-blue-500 mb-4 ml-2">0124-427-1015</span>
             </p>
 
             <p className="text-gray-900 text-2xl mb-4 mt-10">Hours</p>
@@ -48,9 +48,9 @@ function Contact(){
                 className="flex items-center space-x-1 focus:outline-none"
             >
                 <span className="text-gray-600">Open today</span>
-                <span className="text-orange-600 font-semibold">{todayData.time}</span>
+                <span className="text-blue-500 font-semibold">{todayData.time}</span>
                 <svg
-                className={`w-4 h-4 ml-1 text-orange-600 transition-transform duration-300 ${
+                className={`w-4 h-4 ml-1 text-blue-500 transition-transform duration-300 ${
                     open ? 'rotate-180' : ''
                 }`}
                 fill="currentColor"
@@ -71,7 +71,7 @@ function Contact(){
                     <li
                         key={index}
                         className={`flex justify-between px-4 py-1 text-sm ${
-                        item.day === todayData.day ? 'font-semibold text-orange-600' : ''
+                        item.day === todayData.day ? 'font-semibold text-blue-500' : ''
                         }`}
                     >
                         <span>{item.day}</span>
