@@ -64,7 +64,7 @@ function Home(){
             <img
                 src="/images/logo.PNG"
                 alt="logo"
-                className="absolute top-4 md:left-16 left-2 md:h-[80px] h-[50px] rounded-full object-cover md:w-[80px] w-[50px] z-10"
+                className="absolute top-4 md:left-16 left-2 md:h-[80px] h-[40px] rounded-full object-cover md:w-[80px] w-[40px] z-10"
             />
 
             <img

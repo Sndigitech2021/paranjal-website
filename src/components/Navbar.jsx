@@ -7,16 +7,22 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false);
+    setIsServicesOpen(false);
+  };
+
+
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50 border-b-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-[100px] items-center">
-          <Link to="/" className="text-2xl font-bold text-blue-500">
+          <Link to="/" onClick={handleLinkClick} className="text-2xl font-bold text-blue-500">
           <img src="/images/logo.PNG" alt="logo" className="h-[60px] w-auto" /></Link>
 
           <div className="hidden md:flex items-center space-x-10 text-lg font-semibold uppercase">
             <NavLink
-            to="/"
+            to="/" onClick={handleLinkClick}
             className={({ isActive }) =>
               `px-3 py-1 hover:text-blue-400 transition-colors duration-200 ${
                 isActive ? "border-b-1 border-blue-400 text-blue-400" : ""
@@ -27,7 +33,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            to="/about"
+            to="/about" onClick={handleLinkClick}
             className={({ isActive }) =>
               `px-3 py-1 hover:text-blue-400 transition-colors duration-200 ${
                 isActive ? "border-b-1 border-blue-400 text-blue-400" : ""
@@ -59,7 +65,7 @@ const Navbar = () => {
             </div>
 
               <NavLink
-            to="/contact"
+            to="/contact" onClick={handleLinkClick}
             className={({ isActive }) =>
               `px-3 py-1 hover:text-blue-500 transition-colors duration-200 ${
                 isActive ? "border-b-1 border-blue-400 text-blue-400" : ""
@@ -84,8 +90,8 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white shadow-md">
           <div className="flex flex-col space-y-2 p-4 text-sm font-semibold uppercase">
-            <Link to="/" className="text-blue-400">Home</Link>
-            <Link to="/about" className="text-blue-400">About Us</Link>
+            <Link to="/" onClick={handleLinkClick} className="text-blue-400">Home</Link>
+            <Link to="/about" onClick={handleLinkClick} className="text-blue-400">About Us</Link>
 
             <div className="group">
               <button onClick={() => setIsServicesOpen((prev) => !prev)} className="flex items-center text-blue-400 text-sm uppercase gap-1 group-hover:text-blue-400">
@@ -108,7 +114,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link to="/contact"  className="text-blue-400">Contact Us</Link>
+            <Link to="/contact" onClick={handleLinkClick} className="text-blue-400">Contact Us</Link>
           </div>
         </div>
       )}
