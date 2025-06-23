@@ -64,14 +64,13 @@ function Home(){
             <img
                 src="/images/logo.PNG"
                 alt="logo"
-                className="absolute top-4 left-16 h-[80px] rounded-full object-cover w-[80px] z-10"
+                className="absolute top-4 md:left-16 left-2 md:h-[80px] h-[50px] rounded-full object-cover md:w-[80px] w-[50px] z-10"
             />
 
             <img
                 src="/images/hhh.png"
                 alt="homepage image"
-                className="w-full h-[60vh] object-cover"
-                style={{ marginBottom: "40px" }}
+                className="w-full md:object-cover md:h-[60vh] object-contain h-1/2 mb-10"
             />
             </div>
 
