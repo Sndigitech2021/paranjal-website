@@ -26,16 +26,16 @@ function Contact(){
             Tell us a little about your requirements and we will get back to you with some ideas as soon as possible.
             </p>
             
-            <p className="text-gray-900 text-2xl mb-4 mt-10">Proswl Technology Private Limited</p>
+            <p className="text-gray-900 text-2xl mb-4 mt-10">Aviato Technology Private Limited</p>
 
-            <p className="text-gray-700 mb-4 mt-6">Proswl Technology Private Limited, Delhi - Jaipur Expressway, Udyog Vihar, Sector 18, Gurugram, Haryana, India</p>
+            <p className="text-gray-700 mb-4 mt-6">Aviato Technology Private Limited, JMD Galleria F 117, Gurgaon Haryana</p>
 
             <p><span className="text-gray-700 text-lg mb-4 mt-10">Email:</span>
-                <span className="text-lg text-blue-400 mb-4 ml-2">xyz@gmail.com</span>
+                <span className="text-lg text-blue-400 mb-4 ml-2">info@aviatotech@gmail.com</span>
             </p>
 
             <p className="mb-4 mt-6"><span className="text-gray-700 text-lg mb-4 mt-10">Phone:</span>
-                <span className="text-lg text-blue-400 mb-4 ml-2">0124-427-1015</span>
+                <span className="text-lg text-blue-400 mb-4 ml-2">(+91) 9971360789</span>
             </p>
 
             <p className="text-gray-900 text-2xl mb-4 mt-10">Hours</p>

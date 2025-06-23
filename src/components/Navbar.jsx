@@ -93,7 +93,7 @@ const Navbar = () => {
                 <span>▾</span>
               </button>
               {isServicesOpen && (
-              <div className="absolute hidden group-hover:block bg-white shadow-md mt-1 rounded  max-h-[250px] overflow-y-auto z-10 w-[200px] capitalize">
+              <div className="bg-white shadow-md mt-1 rounded max-h-[250px] overflow-y-auto z-10 w-[200px] capitalize">
                 <Link to="/service" className="block px-4 py-2 hover:bg-gray-100">Networking Solution</Link>
                 <Link to="/service" className="block px-4 py-2 hover:bg-gray-100">Advance Security Solution</Link>
                 <Link to="/service" className="block px-4 py-2 hover:bg-gray-100">End Point Security</Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link to="/contact"  className="text-blue-500">Contact Us</Link>
+            <Link to="/contact"  className="text-blue-400">Contact Us</Link>
           </div>
         </div>
       )}
